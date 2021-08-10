@@ -1,0 +1,22 @@
+.personalTemplate {
+    margin: 3rem 3rem 0 3rem;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    margin: 0.25rem 0;
+}
+
+.infoIcon {
+    color: #22a6f2;
+    margin-right: 0.25rem;
+}
+
+.personalInfo h4 {
+    display: inline-block;
+    font-weight: 700;
+    margin: 0 1rem 0.5rem 0;
+    font-size: 1em;
+}

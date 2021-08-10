@@ -1,0 +1,42 @@
+{
+  "name": "final-project-cheddar",
+  "version": "1.0.0",
+  "description": "final-project-cheddar created by GitHub Classroom\r <img src=\"https://github.com/UTMCSC301/final-project-cheddar/blob/main/cheddar.png?raw=true\" alt=\"Cheddar Cheese Icon\"/>",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "start": "node --experimental-modules server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/UTMCSC301/final-project-cheddar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UTMCSC301/final-project-cheddar/issues"
+  },
+  "homepage": "https://github.com/UTMCSC301/final-project-cheddar#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^4.2.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "firebase": "^8.2.9",
+    "firebase-admin": "^9.5.0",
+    "mongoose": "^5.11.18",
+    "passport": "^0.4.1",
+    "passport-google-oauth": "^2.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
